@@ -1,8 +1,38 @@
 {
-  "name": "vite-react-typescript-starter",
-  "private": true,
-  "version": "0.0.0",
+  "name": "devtools-dashboard",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "description": "A modern, all-in-one developer toolbox with 13 essential utilities including JSON formatter, Base64 encoder, JWT decoder, regex tester, and more. Built with React, TypeScript, and Tailwind CSS.",
+  "keywords": [
+    "developer-tools",
+    "json-formatter",
+    "base64-encoder",
+    "jwt-decoder",
+    "regex-tester",
+    "uuid-generator",
+    "hash-generator",
+    "image-converter",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "vite",
+    "web-utilities",
+    "developer-utilities"
+  ],
+  "author": {
+    "name": "Devaprakash",
+    "url": "https://github.com/devaprakashpro"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devaprakashpro/DevTools.git"
+  },
+  "homepage": "https://devtools-dashboard.vercel.app",
+  "bugs": {
+    "url": "https://github.com/devaprakashpro/DevTools/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
