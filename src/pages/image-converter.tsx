@@ -10,6 +10,8 @@ import { Upload, Image as ImageIcon, Download, RotateCcw, X, Archive } from 'luc
 import { toast } from 'sonner';
 import JSZip from 'jszip';
 import { CodeLoader } from '@/components/ui/loading-spinner';
+import { PageSEO, seoData } from '@/components/seo/page-seo';
+import { SchemaMarkup, toolSchemaData } from '@/components/seo/schema-markup';
 
 interface ImageFile {
   file: File;
@@ -220,12 +222,17 @@ export function ImageConverter() {
   };
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       className="space-y-6 max-w-4xl mx-auto"
     >
+      {/* SEO Meta Tags */}
+      <PageSEO {...seoData.imageConverter} />
+
+      {/* Schema Markup */}
+      <SchemaMarkup type="softwareApplication" data={toolSchemaData['image-converter']} />
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -239,10 +246,11 @@ export function ImageConverter() {
         </div>
         <div>
           <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-sky-600 to-blue-600 bg-clip-text text-transparent">
-            Image Converter
+            Image Format Converter - Convert PNG, JPG, WebP Online
           </h1>
-          <p className="text-muted-foreground mt-2">
-            Convert images between different formats: PNG, JPG, WebP, and more
+          <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
+            Convert images between PNG, JPG, WebP formats online with quality control, batch processing, and ZIP download.
+            Professional image conversion tool with drag & drop support.
           </p>
         </div>
       </motion.div>

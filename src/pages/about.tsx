@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -17,6 +18,9 @@ import {
   Lightbulb
 } from 'lucide-react';
 import { AnimatedLogo, SparkleIcon, ToolIcon } from '@/components/ui/custom-icons';
+import { Footer } from '@/components/layout/footer';
+import { PageSEO, seoData } from '@/components/seo/page-seo';
+import { SchemaMarkup } from '@/components/seo/schema-markup';
 
 const features = [
   {
@@ -48,12 +52,17 @@ const technologies = [
 
 export function About() {
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       className="space-y-8 max-w-4xl mx-auto"
     >
+      {/* SEO Meta Tags */}
+      <PageSEO {...seoData.about} />
+
+      {/* Schema Markup */}
+      <SchemaMarkup type="organization" />
       {/* Hero Section */}
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
@@ -107,8 +116,11 @@ export function About() {
           <CardContent>
             <p className="text-lg text-muted-foreground leading-relaxed">
               To provide developers and web professionals with a centralized, fast, and reliable set of utilities that eliminate the need to
-              search for multiple online tools. Every utility is crafted with attention to detail, focusing on
-              user experience and performance.
+              search for multiple online tools. Whether you need to <Link to="/json-formatter" className="text-primary hover:underline">format JSON</Link>,
+              <Link to="/base64" className="text-primary hover:underline"> encode Base64</Link>,
+              <Link to="/jwt-decoder" className="text-primary hover:underline"> decode JWT tokens</Link>, or
+              <Link to="/image-converter" className="text-primary hover:underline"> convert images</Link>,
+              every utility is crafted with attention to detail, focusing on user experience and performance.
             </p>
           </CardContent>
         </Card>
@@ -269,6 +281,9 @@ export function About() {
           </CardContent>
         </Card>
       </motion.div>
+
+      {/* Enhanced Footer */}
+      <Footer />
     </motion.div>
   );
 }
