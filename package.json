@@ -1,10 +1,12 @@
 {
-  "name": "devtools-dashboard",
+  "name": "webutilbox",
   "private": false,
   "version": "1.0.0",
   "type": "module",
-  "description": "A modern, all-in-one developer toolbox with 13 essential utilities including JSON formatter, Base64 encoder, JWT decoder, regex tester, and more. Built with React, TypeScript, and Tailwind CSS.",
+  "description": "WebUtilBox - A modern, all-in-one web utility toolbox with 13 essential developer tools including JSON formatter, Base64 encoder, JWT decoder, regex tester, and more. Built with React, TypeScript, and Tailwind CSS.",
   "keywords": [
+    "webutilbox",
+    "web-utilities",
     "developer-tools",
     "json-formatter",
     "base64-encoder",
@@ -17,8 +19,8 @@
     "typescript",
     "tailwindcss",
     "vite",
-    "web-utilities",
-    "developer-utilities"
+    "web-toolbox",
+    "utility-tools"
   ],
   "author": {
     "name": "Devaprakash",
@@ -27,11 +29,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devaprakashpro/DevTools.git"
+    "url": "https://github.com/devaprakashpro/Webutilbox-.git"
   },
-  "homepage": "https://devtools-dashboard.vercel.app",
+  "homepage": "https://webutilbox.vercel.app",
   "bugs": {
-    "url": "https://github.com/devaprakashpro/DevTools/issues"
+    "url": "https://github.com/devaprakashpro/Webutilbox-/issues"
   },
   "scripts": {
     "dev": "vite",

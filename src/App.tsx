@@ -23,9 +23,14 @@ import { ImageConverter } from '@/pages/image-converter';
 import { CodeMinifier } from '@/pages/code-minifier';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function AppContent() {
   const location = useLocation();
+
+  useEffect(() => {
+    document.title = 'WebUtilBox - Modern Web Utility Toolbox';
+  }, []);
 
   return (
     <div className="min-h-screen bg-background">

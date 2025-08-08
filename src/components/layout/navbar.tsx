@@ -1,5 +1,5 @@
 import { Moon, Sun, Users, Github, Heart } from 'lucide-react';
-import { DevToolsLogo, CommunityIcon, UserIcon, MenuIcon, DashboardIcon } from '@/components/ui/custom-icons';
+import { WebUtilBoxLogo, CommunityIcon, UserIcon, MenuIcon, DashboardIcon } from '@/components/ui/custom-icons';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/providers/theme-provider';
 import { useState } from 'react';
@@ -107,11 +107,11 @@ export function Navbar() {
         <body>
           <div class="container">
             <div class="logo">G</div>
-            <h1>Join DevTools Community</h1>
-            <p>Sign in with your Google account to join our developer community</p>
+            <h1>Join WebUtilBox Community</h1>
+            <p>Sign in with your Google account to join our web utility community</p>
             <button class="btn" onclick="authenticate()">Continue with Google</button>
             <div id="success" class="success">
-              ✅ Successfully joined the DevTools community!<br>
+              ✅ Successfully joined the WebUtilBox community!<br>
               Welcome aboard! 🎉
             </div>
           </div>
@@ -134,8 +134,8 @@ export function Navbar() {
       const checkClosed = setInterval(() => {
         if (popup.closed) {
           clearInterval(checkClosed);
-          toast.success("Welcome to the DevTools Community! 🎉", {
-            description: "You've successfully joined our developer community!",
+          toast.success("Welcome to the WebUtilBox Community! 🎉", {
+            description: "You've successfully joined our web utility community!",
             action: {
               label: "Awesome!",
               onClick: () => {},
@@ -183,13 +183,13 @@ export function Navbar() {
           </Sheet>
 
           <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20">
-            <DevToolsLogo className="h-6 w-6 text-primary" />
+            <WebUtilBoxLogo className="h-6 w-6 text-primary" />
           </div>
           <div className="hidden sm:block">
             <h1 className="text-lg md:text-xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-              DevTools Dashboard
+              WebUtilBox
             </h1>
-            <p className="text-xs text-muted-foreground">Developer Utilities</p>
+            <p className="text-xs text-muted-foreground">Web Utilities</p>
           </div>
         </div>
 

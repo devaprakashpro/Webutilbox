@@ -5,7 +5,7 @@ interface IconProps {
   size?: number;
 }
 
-export const DevToolsLogo: React.FC<IconProps> = ({ className = "", size = 24 }) => (
+export const WebUtilBoxLogo: React.FC<IconProps> = ({ className = "", size = 24 }) => (
   <svg
     width={size}
     height={size}

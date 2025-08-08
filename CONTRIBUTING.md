@@ -1,6 +1,6 @@
-# Contributing to DevTools Dashboard
+# Contributing to WebUtilBox
 
-Thank you for your interest in contributing to DevTools Dashboard! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to WebUtilBox! This document provides guidelines and information for contributors.
 
 ## 🚀 Getting Started
 
@@ -14,8 +14,8 @@ Thank you for your interest in contributing to DevTools Dashboard! This document
 
 1. **Fork and clone the repository**
    ```bash
-   git clone https://github.com/your-username/DevTools.git
-   cd DevTools
+   git clone https://github.com/your-username/Webutilbox-.git
+   cd Webutilbox-
    ```
 
 2. **Install dependencies**
@@ -230,8 +230,8 @@ For new feature requests:
 
 ## 📄 License
 
-By contributing to DevTools Dashboard, you agree that your contributions will be licensed under the MIT License.
+By contributing to WebUtilBox, you agree that your contributions will be licensed under the MIT License.
 
 ---
 
-Thank you for contributing to DevTools Dashboard! 🚀
+Thank you for contributing to WebUtilBox! 🚀

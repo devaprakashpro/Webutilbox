@@ -1,22 +1,22 @@
-# 🛠️ DevTools Dashboard - Git Repository Description
+# 🛠️ WebUtilBox - Git Repository Description
 
 ## Repository Information
 
-### **Repository Name**: `DevTools`
-### **Description**: 
+### **Repository Name**: `Webutilbox-`
+### **Description**:
 ```
-🛠️ Modern Developer Toolbox - 13 essential utilities including JSON formatter, Base64 encoder, JWT decoder, regex tester, image converter & more. Built with React, TypeScript & Tailwind CSS. ⚡ Fast, responsive, privacy-focused.
+🛠️ WebUtilBox - Modern Web Utility Toolbox with 13 essential tools including JSON formatter, Base64 encoder, JWT decoder, regex tester, image converter & more. Built with React, TypeScript & Tailwind CSS. ⚡ Fast, responsive, privacy-focused.
 ```
 
 ### **Topics/Tags**:
 ```
-developer-tools, json-formatter, base64-encoder, jwt-decoder, regex-tester, 
-uuid-generator, hash-generator, image-converter, react, typescript, 
-tailwindcss, vite, web-utilities, developer-utilities, frontend, 
+webutilbox, web-utilities, developer-tools, json-formatter, base64-encoder,
+jwt-decoder, regex-tester, uuid-generator, hash-generator, image-converter,
+react, typescript, tailwindcss, vite, web-toolbox, utility-tools, frontend,
 responsive-design, dark-theme, modern-ui, framer-motion, radix-ui
 ```
 
-### **Website**: `https://devtools-dashboard.vercel.app`
+### **Website**: `https://webutilbox.vercel.app`
 
 ## GitHub Repository Settings
 

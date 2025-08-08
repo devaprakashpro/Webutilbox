@@ -45,7 +45,7 @@ export function FloatingChat() {
                   </Button>
                 </div>
                 <CardDescription>
-                  Ask me about any developer tool or get help with your code!
+                  Ask me about any web utility or get help with your tools!
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-3">

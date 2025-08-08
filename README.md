@@ -1,10 +1,10 @@
-# 🛠️ DevTools Dashboard
+# 🛠️ WebUtilBox
 
-**A Modern, All-in-One Developer Toolbox**
+**A Modern, All-in-One Web Utility Toolbox**
 
-DevTools Dashboard is a comprehensive, web-based developer utility platform designed to streamline and accelerate everyday development tasks. Built with cutting-edge technologies including React, TypeScript, and modern UI frameworks, it provides an intuitive, responsive interface for essential developer tools.
+WebUtilBox is a comprehensive, web-based developer utility platform designed to streamline and accelerate everyday development tasks. Built with cutting-edge technologies including React, TypeScript, and modern UI frameworks, it provides an intuitive, responsive interface for essential web utilities and developer tools.
 
-![DevTools Dashboard](https://img.shields.io/badge/Version-1.0.0-blue.svg)
+![WebUtilBox](https://img.shields.io/badge/Version-1.0.0-blue.svg)
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB.svg?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6.svg?logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-5.4.8-646CFF.svg?logo=vite)
@@ -53,8 +53,8 @@ DevTools Dashboard is a comprehensive, web-based developer utility platform desi
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/devaprakashpro/DevTools.git
-   cd DevTools
+   git clone https://github.com/devaprakashpro/Webutilbox-.git
+   cd Webutilbox-
    ```
 
 2. **Install dependencies**
@@ -89,7 +89,7 @@ The built files will be in the `dist` directory, ready for deployment.
 ## 🏗️ Project Structure
 
 ```
-DevTools/
+WebUtilBox/
 ├── public/                 # Static assets
 ├── src/
 │   ├── components/         # Reusable UI components
@@ -307,8 +307,8 @@ npm run lint
 
 1. **Clone and install**
    ```bash
-   git clone https://github.com/devaprakashpro/DevTools.git
-   cd DevTools
+   git clone https://github.com/devaprakashpro/Webutilbox-.git
+   cd Webutilbox-
    npm install
    ```
 
@@ -497,6 +497,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **⭐ Star this repository if you find it helpful!**
 
-[Report Bug](https://github.com/devaprakashpro/DevTools/issues) • [Request Feature](https://github.com/devaprakashpro/DevTools/issues) • [Documentation](https://github.com/devaprakashpro/DevTools/wiki)
+[Report Bug](https://github.com/devaprakashpro/Webutilbox-/issues) • [Request Feature](https://github.com/devaprakashpro/Webutilbox-/issues) • [Documentation](https://github.com/devaprakashpro/Webutilbox-/wiki)
 
 </div>

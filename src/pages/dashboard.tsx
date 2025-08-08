@@ -136,7 +136,7 @@ export function Dashboard() {
             ease: "linear"
           }}
         >
-          Developer Tools Dashboard
+          WebUtilBox
         </motion.h1>
         <motion.p 
           className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
@@ -144,7 +144,7 @@ export function Dashboard() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          Essential utilities for modern developers. Format, convert, test, and validate with ease.
+          Essential web utilities for modern developers and professionals. Format, convert, test, and validate with ease.
         </motion.p>
       </motion.div>
 
@@ -193,7 +193,7 @@ export function Dashboard() {
           <div className="text-left">
             <h3 className="font-semibold">More tools coming soon!</h3>
             <p className="text-sm text-muted-foreground">
-              We're constantly adding new developer utilities
+              We're constantly adding new web utilities
             </p>
           </div>
         </motion.div>
@@ -219,7 +219,7 @@ export function Dashboard() {
                 Made with ❤️ by <a href="https://devaprakash.com" target="_blank" rel="noopener noreferrer" className="font-medium text-foreground hover:text-primary transition-colors">Devaprakash</a>
               </div>
               <div className="text-xs">
-                Designed & Developed for the developer community
+                Designed & Developed for the web development community
               </div>
             </div>
           </div>

@@ -26,8 +26,8 @@ const features = [
   },
   {
     icon: Users,
-    title: "Developer Focused",
-    description: "Created by developers, for developers with real-world needs in mind"
+    title: "User Focused",
+    description: "Created for developers and web professionals with real-world needs in mind"
   },
   {
     icon: Heart,
@@ -83,10 +83,10 @@ export function About() {
               ease: "linear"
             }}
           >
-            About DevTools Dashboard
+            About WebUtilBox
           </motion.h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A comprehensive suite of developer utilities designed to streamline your workflow and boost productivity.
+            A comprehensive suite of web utilities designed to streamline your workflow and boost productivity.
           </p>
         </div>
       </motion.div>
@@ -106,8 +106,8 @@ export function About() {
           </CardHeader>
           <CardContent>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              To provide developers with a centralized, fast, and reliable set of tools that eliminate the need to 
-              search for multiple online utilities. Every tool is crafted with attention to detail, focusing on 
+              To provide developers and web professionals with a centralized, fast, and reliable set of utilities that eliminate the need to
+              search for multiple online tools. Every utility is crafted with attention to detail, focusing on
               user experience and performance.
             </p>
           </CardContent>
@@ -123,7 +123,7 @@ export function About() {
       >
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-2">Why Choose Our Tools?</h2>
-          <p className="text-muted-foreground">Built with modern standards and developer experience in mind</p>
+          <p className="text-muted-foreground">Built with modern standards and user experience in mind</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -197,9 +197,9 @@ export function About() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Hi! I'm <strong className="text-foreground">Devaprakash</strong>, a passionate full-stack developer 
-              who believes in creating tools that make developers' lives easier. This project started as a personal 
-              need for quick, reliable developer utilities and has grown into a comprehensive toolkit.
+              Hi! I'm <strong className="text-foreground">Devaprakash</strong>, a passionate full-stack developer
+              who believes in creating tools that make developers' lives easier. WebUtilBox started as a personal
+              need for quick, reliable web utilities and has grown into a comprehensive toolbox.
             </p>
             
             <div className="flex flex-wrap gap-3">
