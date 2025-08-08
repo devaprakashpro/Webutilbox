@@ -24,6 +24,7 @@ import { CodeMinifier } from '@/pages/code-minifier';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 function AppContent() {
   const location = useLocation();
@@ -72,6 +73,7 @@ function App() {
     <ThemeProvider defaultTheme="dark" storageKey="devtools-theme">
       <Router>
         <AppContent />
+        <Analytics />
       </Router>
     </ThemeProvider>
   );

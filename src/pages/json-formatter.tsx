@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { ShareButton } from '@/components/ui/share-button';
 import { Copy, FileJson } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { analytics, TOOL_NAMES } from '@/lib/analytics';
 
 export function JsonFormatter() {
   const [input, setInput] = useState('');
@@ -18,14 +19,24 @@ export function JsonFormatter() {
       const formatted = JSON.stringify(parsed, null, 2);
       setOutput(formatted);
       setError('');
+
+      // Track successful JSON formatting
+      analytics.trackToolUsage(TOOL_NAMES.JSON_FORMATTER, 'format_success');
     } catch (err) {
       setError((err as Error).message);
       setOutput('');
+
+      // Track JSON formatting error
+      analytics.trackError('invalid_json_syntax', TOOL_NAMES.JSON_FORMATTER);
     }
   };
 
   const copyOutput = () => {
     navigator.clipboard.writeText(output);
+
+    // Track copy action
+    analytics.trackFeature('copy_output', TOOL_NAMES.JSON_FORMATTER);
+
     toast({
       title: 'Copied!',
       description: 'Formatted JSON copied to clipboard.',
