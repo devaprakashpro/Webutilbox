@@ -21,7 +21,7 @@ import { HashGenerator } from '@/pages/hash-generator';
 import { SqlFormatter } from '@/pages/sql-formatter';
 import { ImageConverter } from '@/pages/image-converter';
 import { CodeMinifier } from '@/pages/code-minifier';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { Analytics } from '@vercel/analytics/react';

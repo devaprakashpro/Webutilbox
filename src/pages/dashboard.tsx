@@ -1,22 +1,15 @@
 import {
-  FileJson,
-  Binary,
   Shield,
-  Search,
   Clock,
   Palette,
   Calendar,
   Hash,
   Link as LinkIcon,
-  Zap,
   Database,
   Image,
   Code,
-  Heart,
-  Github,
-  Globe,
 } from 'lucide-react';
-import { JsonIcon, Base64Icon, RegexIcon, HashIcon, WebUtilBoxLogo } from '@/components/ui/custom-icons';
+import { JsonIcon, Base64Icon, RegexIcon, HashIcon } from '@/components/ui/custom-icons';
 import { ToolCard } from '@/components/ui/tool-card';
 import { Footer } from '@/components/layout/footer';
 import { PageSEO, seoData } from '@/components/seo/page-seo';

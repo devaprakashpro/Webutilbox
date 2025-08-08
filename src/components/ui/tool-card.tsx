@@ -1,13 +1,13 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './card';
+import { Card, CardDescription, CardHeader, CardTitle } from './card';
 import { motion } from 'framer-motion';
 import { LucideIcon } from 'lucide-react';
+import React from 'react';
 
 interface ToolCardProps {
   title: string;
   description: string;
-  icon?: LucideIcon;
+  icon?: LucideIcon | React.ComponentType<any>;
   path?: string;
   gradient?: string;
   onClick?: () => void;
